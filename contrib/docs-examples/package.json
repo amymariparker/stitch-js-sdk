@@ -4,7 +4,9 @@
   "description": "",
   "main": "validate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "MongoDB, Inc.",
   "license": "ISC",
@@ -22,6 +24,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "invariant": "^2.2.4",
-    "mock-browser": "^0.92.14"
-  }
+    "mock-browser": "^0.92.14",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
