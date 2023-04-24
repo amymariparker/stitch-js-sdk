@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "jsdom": "^13.2.0",
-    "snyk": "^1.424.4"
+    "snyk": "^1.586.0"
   },
   "snyk": true
 }
