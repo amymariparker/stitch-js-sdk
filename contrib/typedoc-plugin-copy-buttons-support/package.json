@@ -11,8 +11,8 @@
   "author": "MongoDB, Inc.",
   "license": "MIT",
   "dependencies": {
-    "jsdom": "^13.2.0",
-    "snyk": "^1.424.4"
+    "jsdom": "^16.6.0",
+    "snyk": "^1.685.0"
   },
   "snyk": true
 }
