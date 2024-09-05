@@ -46,7 +46,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "bson": "4.0.2",
-    "eventsource": "1.0.7",
+    "eventsource": "1.1.2",
     "fs-extra": "^6.0.1",
     "mongodb-stitch-core-sdk": "^4.4.1",
     "node-fetch": "^2.3.0"
